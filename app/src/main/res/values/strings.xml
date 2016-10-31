@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GoogleTrainingSharingFiles</string>
+    <string name="file_selector">fileSelector</string>
+</resources>
