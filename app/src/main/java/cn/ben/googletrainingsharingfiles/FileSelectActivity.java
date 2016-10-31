@@ -20,13 +20,17 @@ import cn.ben.googletrainingsharingfiles.databinding.ActivityFileSelectBinding;
 
 public class FileSelectActivity extends Activity {
     // The path to the root of this app's internal storage
+    @SuppressWarnings("FieldCanBeLocal")
     private File mPrivateRootDir;
     // The path to the "images" subdirectory
+    @SuppressWarnings("FieldCanBeLocal")
     private File mImagesDir;
     // Array of files in the images subdirectory
+    @SuppressWarnings("FieldCanBeLocal")
     private File[] mImageFiles;
     // Array of filenames corresponding to mImageFiles
     private String[] mImageFilenames;
+    @SuppressWarnings("FieldCanBeLocal")
     private ListView mFileListView;
     private Intent mResultIntent;
 

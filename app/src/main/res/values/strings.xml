@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">GoogleTrainingSharingFiles</string>
     <string name="file_selector">fileSelector</string>
+    <string name="request_a_file">request a file</string>
 </resources>
